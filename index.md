@@ -12,9 +12,9 @@
 * uh
 * bye
 * 😭
-1 meerkats
-2 are
-3 cute
+1. meerkats
+2. are
+3. cute
 ---
 `whats up`
 ```
