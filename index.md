@@ -5,6 +5,10 @@
 
 helooooo
 
+[Lab Report 1](lab-report-1-week-2.html)
+
+[Lab Report 1](https://melissaesantos.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+
 [Link]( https://melissaesantos.github.io/cse15l-lab-reports/)
 
 ![meerkat](https://user-images.githubusercontent.com/91588097/149413784-3a3f8c7a-522b-4619-b28a-fe4f3c59c2f0.jpeg)
