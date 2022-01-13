@@ -5,7 +5,7 @@
 
 [Link]( https://melissaesantos.github.io/cse15l-lab-reports/)
 
-![cute Meerkat](![image](https://user-images.githubusercontent.com/91588097/149413419-3cdf281a-c851-40e3-b6e2-bd1d4d6062b8.png))
+![cuteMeerkat](![image](https://user-images.githubusercontent.com/91588097/149413419-3cdf281a-c851-40e3-b6e2-bd1d4d6062b8.png))
 
 >Hello,World!
 * uh
