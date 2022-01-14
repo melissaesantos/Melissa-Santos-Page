@@ -13,11 +13,11 @@ In this step we will see how to use VScode to connect to a remote computer via t
 
 On VScode we will be connecting to a remote computer using VScode's remote option. To do so  open the terminal and type :``` ssh user@hostname``` in this case it will be similar to `ssh cs15lwi22zz@ieng6.ucsd.edu` but the "zz" should be replaced by the letter in your course-specific account.
 Once that is done for first time you log into the system a message will be prompted that looks like this: 
-```⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
+````⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-```
+````
 
 When this message is prompted I would normally say  yes. So type yes and press enter to continue. Once you do that it will ask you to put in the password for your account(Note: when typing in the password you will not be able to see what you type. That is okay! 😃)
 Once you are logged in there should be a message prompted that looks like this towards the bottom: 
@@ -41,7 +41,7 @@ Now to log out of this remote server you can use:
 Crtl-D 
 
 Lets move on to the next step!
-## Step 5: Moving Files with `scp`
+## Step 4: Moving Files with `scp`
 
 In this step we will be learning a crucial part that is needed when working remotely. This is being able to copy files back and forth between computers. To do so you will be using the command `scp` which will always be ran from your computer(make sure you are not running it on the remote server). First, lets create a file named WhereAmI.java and write this into it:
 ````
@@ -58,7 +58,7 @@ From here you can compile it using `javac WhereAmI.java` and run it using `java 
 
 ![Image](copies.png)
 
-## Step 6: Setting an SSH Key
+## Step 5: Setting an SSH Key
 When logging in or running `scp` we always have to input our password which can become really frustrating and time consuming. Well luckily there is an easy fix which is by creating SSH Keys! In  order to do this you should run this to set it up: 
 ![Image](sshKey.png)
 
@@ -83,7 +83,7 @@ With everything together it should look like this:
 
 YOU'VE DONE IT!!🎉🎉 Now you should be able to ssh or scp from your computer to the server without entering your password!!
 
-## Part 7: Optimizing Remote Running
+## Part 6: Optimizing Remote Running
 Here are some tips on how to be efficient when running through this whole process.
 
 
