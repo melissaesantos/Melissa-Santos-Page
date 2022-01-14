@@ -92,4 +92,4 @@ Here are some tips on how to be efficient when running through this whole proces
 3. When running and compiling multiple times use the up arrow to recall these commands
 4. When making changes to files use the keyboard shortcut Command + s to save the file easily
 
-# That's it enjoy!!!
+# That's it enjoy!!
