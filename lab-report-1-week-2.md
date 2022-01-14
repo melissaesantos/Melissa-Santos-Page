@@ -11,9 +11,10 @@
 ## Step 2: Remotely Connecting 💻 🖥
 In this step we will see how to use VScode to connect to a remote computer via the internet.For this you will need access to your course-specific account which can be found here:https://sdacs.ucsd.edu/~icc/index.php.
 
-On VScode we will be connecting to a remote computer using VScode's remote option. To do so  open the terminal and type :``` ssh user@hostname``` in this case it will be similar to `ssh cs15lwi22zz@ieng6.ucsd.edu` but the "zz" should be replaced by the letter in your course-specific account.
+On VScode we will be connecting to a remote computer using VScode's remote option. To do so  open the terminal and type : `` ssh user@hostname`` in this case it will be similar to `ssh cs15lwi22zz@ieng6.ucsd.edu` but the "zz" should be replaced by the letter in your course-specific account.
 Once that is done for first time you log into the system a message will be prompted that looks like this: 
-````⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
+````
+⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
