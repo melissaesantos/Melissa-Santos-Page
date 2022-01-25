@@ -9,7 +9,7 @@
 ![Image](VSCODEINTRO.png)
 
 ## Step 2: Remotely Connecting 💻 🖥
-In this step we will see how to use VScode to connect to a remote computer via the internet.For this you will need access to your course-specific account which can be found here:https://sdacs.ucsd.edu/~icc/index.php.
+In this step we will see how to use VScode to connect to a remote computer via the internet.For this you will need access to your course-specific account which can be found here: [account](https://sdacs.ucsd.edu/~icc/index.php.)
 
 On VScode we will be connecting to a remote computer using VScode's remote option. To do so  open the terminal and type : `` ssh user@hostname`` in this case it will be similar to `ssh cs15lwi22zz@ieng6.ucsd.edu` but the "zz" should be replaced by the letter in your course-specific account.
 Once that is done for first time you log into the system a message will be prompted that looks like this: 
@@ -30,16 +30,16 @@ This means that you are now connected to a computer in the CSE Basement(remote s
 ## Step  3: Running Commands!
 
 There are many commands one can run to complete specific tasks. For right now we will just keeo it simple and use a few tasks. Lets try using ls,cd, pwd, and dir. 
-1. ls: lists the files and directories
-2. cd: this changes the current directory you are in
-3. pwd: shows you the full addres of the current directory
-4. dir: gives you the current directory
+1. ```ls```: lists the files and directories
+2. ```cd```: this changes the current directory you are in
+3. ```pwd```: shows you the full addres of the current directory
+4. ```dir```: gives you the current directory
 
 When you are done excuting these commands it could somewhat look like this:
 ![Image](Commands.png)
 
 Now to log out of this remote server you can use:
-Crtl-D 
+```Crtl-D ```
 
 Lets move on to the next step!
 ## Step 4: Moving Files with `scp`
@@ -60,7 +60,7 @@ From here you can compile it using `javac WhereAmI.java` and run it using `java 
 ![Image](copies.png)
 
 ## Step 5: Setting an SSH Key
-When logging in or running `scp` we always have to input our password which can become really frustrating and time consuming. Well luckily there is an easy fix which is by creating SSH Keys! In  order to do this you should run this to set it up: 
+When logging in or running `scp` we always have to input our password which can become really frustrating and time consuming. Well luckily there is an easy fix which is by creating SSH Keys! In  order to do this you should run ```ssh-keygen``` this to set it up: 
 ![Image](sshKey.png)
 
 This has now created two files 
@@ -91,6 +91,15 @@ Here are some tips on how to be efficient when running through this whole proces
 1. Use the keyGen which saves time from inputing your password
 2. scp the file up to your directory at the server
 3. When running and compiling multiple times use the up arrow to recall these commands
-4. When making changes to files use the keyboard shortcut Command + s to save the file easily
+4. When making changes to files use the keyboard shortcut Command + s to save the file easily 
+
+Using these tips I was able to run the files remotely using  11 KeyStrokes:
+
+First I used the up arrow on my keyboard to log in since I had previously ran that command. 
+So that was 1 key stroke used plus the keystroke to enter. You then also have to press enter for your password so thats another key stroke.
+Then, I compiled the Where Am I file which is a total of 2 key strokes because I copied and pasted it in. From there I used a semicolon
+to also run the java file(copied and pasted it in)with compiling the file so it runs in one command and the. So we have 3 + 3 +1 +3 + 1 which is 11 keystrokes.
+
+
 
 # That's it enjoy!!
