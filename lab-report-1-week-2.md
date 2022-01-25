@@ -103,7 +103,9 @@ to also run the java file(copied and pasted it in)with compiling the file so it 
 ![Image](Step6.png)
 
 ````
-  Note: At first I was going to compile and run the files in two commands but I found that using a semicolon can make it so you run and compile the file at the same time. 
+  Note: At first I was going to compile and run the files in two commands but 
+  I found that using a semicolon can make it so you run and compile the file 
+  at the same time. 
 ````
 
 
