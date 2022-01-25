@@ -100,6 +100,7 @@ So that was 1 key stroke used plus the keystroke to enter. You then also have to
 Then, I compiled the Where Am I file which is a total of 2 key strokes because I copied and pasted it in. From there I used a semicolon
 to also run the java file(copied and pasted it in)with compiling the file so it runs in one command and the. So we have 3 + 3 +1 +3 + 1 which is 11 keystrokes.
 
+![Image](Step6.png)
 
 
 # That's it enjoy!!
