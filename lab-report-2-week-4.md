@@ -3,6 +3,7 @@ Let's do some debugging!
 
 ---
 Change 1:
+
 ---
 
 This change was made because of this 
@@ -20,6 +21,7 @@ To fix this issue I added these few lines of code:
 
 ---
 Change 2:
+
 ---
 
 This 2nd change was made because of this [failure-inducing input2](https://github.com/melissaesantos/markdown-parse/blob/b639e9edb27bfd209d2797637054eb6869d159df/breaking-test_2.md):
@@ -42,6 +44,7 @@ since it is missing the parantheses it shows the symptom(StringIndexOutOfBoundsE
 
 ---
 Change 3
+
 ---
 
 This 3rd change was made because of this [Failure-inducing input3](https://github.com/melissaesantos/markdown-parse/blob/b639e9edb27bfd209d2797637054eb6869d159df/breaking-test_3.md)
