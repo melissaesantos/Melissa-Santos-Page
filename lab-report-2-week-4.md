@@ -43,5 +43,5 @@ This 3rd change was made because of this [Failure-inducing input3](https://githu
 because of this input when we compile `javac MarkdownParse.java` and run `java MarkdownParse breaking-test_3.md` it only outputs `[]` when it should output `[www.google.com]`. 
 ![Image](change3.png)
 
--Since the symptom tells us that it doesn't output what is inbetween the paratheses I added those lines of code to fix the bug so that it can produce the correct output. Once this code was added it fixed the bug and we got the correct output.
+-The failing inducing input contains : `[google]random hello ]good bye (www.google.com)`.Since the symptom tells us that it doesn't output what is in the failing inducing inputI added those lines of code to fix the bug so that it can produce the correct output. Once this code was added it fixed the bug, no longer got the symptom, and it gave the correct output.
 ![Image](good.png)
