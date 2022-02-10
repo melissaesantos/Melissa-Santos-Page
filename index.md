@@ -9,6 +9,8 @@ helooooo
 
 [Lab Report 2](https://melissaesantos.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
+[Lab Report 3](https://melissaesantos.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
 [Link]( https://melissaesantos.github.io/cse15l-lab-reports/)
 
 ![meerkat](https://user-images.githubusercontent.com/91588097/149413784-3a3f8c7a-522b-4619-b28a-fe4f3c59c2f0.jpeg)
