@@ -3,7 +3,7 @@
 Lets copy whole directories with ```scp -r```
 
 ---
-1. copying all of markdown-parse directory to my ieng6 account
+ Copying all of markdown-parse directory to my ieng6 account
 ---
 To do this I used the following code:
 ```
@@ -16,7 +16,7 @@ It should look like this:
 Once that is done lets move on to step 2.
 
 ---
-2.  Logging into your ieng6 acoount 
+Logging into your ieng6 acoount 
 ---
 Logging into your ssh it should look like this when you check if everything has been copied over.
 ![Image](ls.png)
@@ -27,7 +27,7 @@ Once that is done lets see if we can make it easier to run and compile the files
 
 
 ---
-3. Lets make it easier to run and compile
+ Lets make it easier to run and compile
 ---
 This is my single command line code that I used to copy the whole directory and run the tests in one line:
 ```
