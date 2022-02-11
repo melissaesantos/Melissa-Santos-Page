@@ -37,5 +37,9 @@ Explanation:
 In order to run this in one comand line you can use the short name ieng6 to copy over the directories. Then I created a file run.sh that contains these commands:
 ![Image](run.png)
 
-So when I run it all in one line then it also compiles and run the tests and once typing out the onliner it looks like this:
-![Image](oneline.png)
+So when I run it all in one line then it also compiles and run the tests and once typing out the onliner it looks like this which is when it shows that you successfully logged in:
+![Image](help.png)
+Once you scroll down to see the entire message you will see this: 
+![Image](hello.png)
+-This message shows that wyou successfully were able to log into the ssh server and run the files!!
+
