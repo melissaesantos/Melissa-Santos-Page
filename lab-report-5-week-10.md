@@ -4,6 +4,8 @@ Finding two different results:
 
 To find 2 different results I created a ```script.sh``` file in My-markdown-Parse.
 This file contains a for loop which i used to iterate through all of the tests: 
+
+
 ![Image](script.png)
 using this I am able to run through all the tests.
 I ran this file on both my repository and the class's markdown parse. 
