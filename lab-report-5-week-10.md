@@ -69,7 +69,7 @@ Inputting it into the preview we can see that my markdown parse does not produce
 I believe here the fix should be to add something similar to what the class code implemented like ```if(potentialLink.indexOf(" ") == -1 ) {}```  I would implement this because of how the link has a space and an asterik so adding this to the pice of code above to check the link that is once it has been returned can potentially fix this and resolve the issue.
 
 
-##The fix for BUG 2:
+## The fix for BUG 2:
 
 ![Image](b.png)
 
