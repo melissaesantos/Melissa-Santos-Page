@@ -1,6 +1,7 @@
 # Melissa's Projects 
 ---
-[Space Invaders Game](https://melissaesantos.github.io/SpaceInvader.html)
+[Space Invaders Game](https://github.com/melissaesantos/SpaceInvader)
+
 [Remote Access](lab-report-1-week-2.html)
 
 [Debugging](https://melissaesantos.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
